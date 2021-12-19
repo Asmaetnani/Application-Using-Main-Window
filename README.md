@@ -7,7 +7,7 @@
 
 # SpreadSheet 
 
-**image**  
+![image](https://user-images.githubusercontent.com/93820154/146684788-821dc1f6-9f90-4ed4-93c2-e6f0ac4cbc28.png)
 
 Introduction
 -
