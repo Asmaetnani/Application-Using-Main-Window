@@ -278,7 +278,7 @@ void SpreadSheet::loadContent(QString filename){
     }
 }
 ```
-![image](https://user-images.githubusercontent.com/93820154/146685503-e66682cf-fae0-4872-b3df-b774acfee0e8.png)
+![WhatsApp Image 2021-12-19 at 18 43 09](https://user-images.githubusercontent.com/93820154/146685674-1c846dcc-0207-4611-8d9c-8fe100b783f1.jpeg)
 
 4-Saving and loading files in a Csv format
 -
