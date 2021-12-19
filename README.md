@@ -16,7 +16,7 @@ In this project our task is to use QMainWindow to write the code for the graphic
   
 The application now looks like this:  
 
-**image**
+![image](https://user-images.githubusercontent.com/93820154/146685117-59babffa-c916-459d-bbb9-748a6ec9fd24.png)
 
 1-Go cell
 -
