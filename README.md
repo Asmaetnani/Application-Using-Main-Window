@@ -193,7 +193,7 @@ void SpreadSheet::gocelltext(){
         }
     }}
 ```
-**image**
+![WhatsApp Image 2021-12-19 at 18 34 42](https://user-images.githubusercontent.com/93820154/146685344-28734d1f-f161-4e57-8474-d0d289c2a119.jpeg)
 
 3-Saving and loading files in a simple format
 -
