@@ -239,7 +239,7 @@ void SpreadSheet::saveContent(QString filename) const{
 
 This is what the saved file looks like:
 
-![image](https://user-images.githubusercontent.com/93820154/146685419-e1833522-32c6-4139-a270-5a7933d8a602.png)
+![WhatsApp Image 2021-12-19 at 18 42 51](https://user-images.githubusercontent.com/93820154/146685623-c8a28bad-4150-4b22-897d-d02bfb0c3d36.jpeg)
 
 ## Loading files  
 
