@@ -433,6 +433,8 @@ void textEditor::on_actionAbout_Qt_triggered()
 
 
 ```
+# Conclusion
+In this session we enjoyed working with the QtDesigner because it made it easier for use to achieve a lot of complex applications .
 
 
 
