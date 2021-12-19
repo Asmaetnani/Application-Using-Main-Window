@@ -7,7 +7,8 @@
 
 # SpreadSheet 
 
-![image](https://user-images.githubusercontent.com/93820154/146684938-52012269-8099-4c9f-898c-260f84ae6900.png)
+![image](https://user-images.githubusercontent.com/93820154/146684938-52012269-8099-4c9f-100c-260f84ae6900.png)
+
 Introduction
 -
 In general a spreadsheet is a file that exists of cells in rows and columns and can help arrange, calculate and sort data. Data in a spreadsheet can be numeric values, as well as text, formulas, references and functions.  
