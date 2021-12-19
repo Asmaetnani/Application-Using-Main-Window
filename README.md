@@ -235,7 +235,7 @@ void SpreadSheet::saveContent(QString filename) const{
 
 }}
 ```
-**image**
+![image](https://user-images.githubusercontent.com/93820154/146685379-be7a5f13-2bbb-4f38-83d2-c1beceed2de1.png)
 
 ## Loading files  
 
