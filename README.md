@@ -7,7 +7,7 @@
 
 # SpreadSheet 
 
-![ph](https://user-images.githubusercontent.com/93820154/146685066-dc9a408e-9b3b-48b1-ba64-a8ba612617b9.jpg)
+![image](https://user-images.githubusercontent.com/93820154/146684788-821dc1f6-9f90-4ed4-93c2-e6f0ac4cbc28.png)
 
 Introduction
 -
@@ -16,7 +16,7 @@ In this project our task is to use QMainWindow to write the code for the graphic
   
 The application now looks like this:  
 
-![WhatsApp Image 2021-12-19 at 18 31 22](https://user-images.githubusercontent.com/93820154/146685211-9e983c10-3aac-415a-af53-b1b5ceb88d2f.jpeg)
+**image**
 
 1-Go cell
 -
@@ -112,7 +112,7 @@ void SpreadSheet::goCellSlot(){
 }
 ```
 
-![WhatsApp Image 2021-12-19 at 18 33 58](https://user-images.githubusercontent.com/93820154/146685275-23438739-688c-4578-9783-8c91358966d2.jpeg)
+**image**
 
 2-Find Dialog
 -
@@ -193,7 +193,7 @@ void SpreadSheet::gocelltext(){
         }
     }}
 ```
-![WhatsApp Image 2021-12-19 at 18 34 42](https://user-images.githubusercontent.com/93820154/146685344-28734d1f-f161-4e57-8474-d0d289c2a119.jpeg)
+**image**
 
 3-Saving and loading files in a simple format
 -
@@ -235,11 +235,10 @@ void SpreadSheet::saveContent(QString filename) const{
 
 }}
 ```
-![WhatsApp Image 2021-12-19 at 18 35 08](https://user-images.githubusercontent.com/93820154/146685572-dd2f4ade-d479-4fd1-91d5-7d2d12dc87c6.jpeg)
+**image**      
 
-This is what the saved file looks like:
 
-![WhatsApp Image 2021-12-19 at 18 42 51](https://user-images.githubusercontent.com/93820154/146685623-c8a28bad-4150-4b22-897d-d02bfb0c3d36.jpeg)
+**image**
 
 ## Loading files  
 
@@ -278,7 +277,7 @@ void SpreadSheet::loadContent(QString filename){
     }
 }
 ```
-![WhatsApp Image 2021-12-19 at 18 43 09](https://user-images.githubusercontent.com/93820154/146685674-1c846dcc-0207-4611-8d9c-8fe100b783f1.jpeg)
+**image**  
 
 4-Saving and loading files in a Csv format
 -
@@ -378,7 +377,62 @@ void SpreadSheet::LoadContentCsv(QString filename){
 }
 ```
 
+# Text Editor
+Introduction
+-
+A text editor is a computer program that lets a user enter, change, store, and usually print text (characters and numbers, each encoded by the computer and its input and output devices, arranged to have meaning to users or to other programs). Typically, a text editor provides an "empty" display screen (or "scrollable page") with a fixed-line length and visible line numbers.   
 
+For this second application we will try to use the QtDesigner to create a simple text editor program built around QPlainText.    
+
+
+**image**
+
+Below is the code for the functionalities of the actions in the menus :
+```cpp
+void textEditor::on_actionNew_triggered()
+{  currentFile.clear();
+    currentFile=nullptr;
+    ui->plainTextEdit->setPlainText(QString())
+}
+
+void textEditor::on_actionOpen_triggered()
+{
+    QString filename= QFileDialog::getOpenFileName(this,"Open the file");
+    QFile file(filename);
+    currentFile = filename;
+    if(!file.open(QIODevice::ReadOnly | QFile::Text))
+        QMessageBox::warning(this,"Warning","Cannot open file :"+file.errorString());
+    setWindowTitle(filename);
+    QTextStream in(&file);
+    QString text = in.readAll();
+    ui->plainTextEdit->setPlainText(text);
+    file.close();
+}
+
+void textEditor::on_action_Copy_triggered()
+{
+    ui->plainTextEdit->copy();
+}
+
+
+void textEditor::on_action_Paste_triggered()
+{
+   ui->plainTextEdit->paste();
+}
+
+
+void textEditor::on_action_Cut_triggered()
+{
+    ui->plainTextEdit->cut();
+}
+
+void textEditor::on_actionAbout_Qt_triggered()
+{
+    QMessageBox::aboutQt(this, "About Me");
+}
+
+
+```
 
 
 
