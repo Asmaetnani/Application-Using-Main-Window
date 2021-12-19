@@ -7,7 +7,7 @@
 
 # SpreadSheet 
 
-![image](https://user-images.githubusercontent.com/93820154/146684788-821dc1f6-9f90-4ed4-93c2-e6f0ac4cbc28.png)
+![ph](https://user-images.githubusercontent.com/93820154/146686083-45489e8f-d88a-4027-b10a-9d6d3ad4d3bd.jpg)
 
 Introduction
 -
@@ -16,7 +16,7 @@ In this project our task is to use QMainWindow to write the code for the graphic
   
 The application now looks like this:  
 
-**image**
+![WhatsApp Image 2021-12-19 at 18 31 22](https://user-images.githubusercontent.com/93820154/146686097-47f7da62-0404-41f9-8178-98167fc8419f.jpeg)
 
 1-Go cell
 -
@@ -112,7 +112,7 @@ void SpreadSheet::goCellSlot(){
 }
 ```
 
-**image**
+![WhatsApp Image 2021-12-19 at 18 33 58](https://user-images.githubusercontent.com/93820154/146686107-65714e47-6098-4eb6-9571-5236f29679fe.jpeg)
 
 2-Find Dialog
 -
@@ -193,7 +193,7 @@ void SpreadSheet::gocelltext(){
         }
     }}
 ```
-**image**
+![WhatsApp Image 2021-12-19 at 18 34 42](https://user-images.githubusercontent.com/93820154/146686121-1be2c5ff-f862-407b-b216-853d6772f2d5.jpeg)
 
 3-Saving and loading files in a simple format
 -
@@ -235,10 +235,10 @@ void SpreadSheet::saveContent(QString filename) const{
 
 }}
 ```
-**image**      
+![WhatsApp Image 2021-12-19 at 18 35 08](https://user-images.githubusercontent.com/93820154/146686135-b121af42-113c-4f62-a1ab-0d2b4f45f35e.jpeg)
 
-
-**image**
+This is what the saved file looks like :
+![WhatsApp Image 2021-12-19 at 18 42 51](https://user-images.githubusercontent.com/93820154/146686149-37b8b518-67c7-43cb-af63-bdcbc1e151dc.jpeg)
 
 ## Loading files  
 
@@ -277,7 +277,7 @@ void SpreadSheet::loadContent(QString filename){
     }
 }
 ```
-**image**  
+![WhatsApp Image 2021-12-19 at 18 43 09](https://user-images.githubusercontent.com/93820154/146686157-e5e51048-891b-4978-b8c6-c30ab66db6c4.jpeg)
 
 4-Saving and loading files in a Csv format
 -
@@ -385,7 +385,7 @@ A text editor is a computer program that lets a user enter, change, store, and u
 For this second application we will try to use the QtDesigner to create a simple text editor program built around QPlainText.    
 
 
-**image**
+![b7e27e2a-794d-40d4-bac9-69f220ee4d18](https://user-images.githubusercontent.com/93820154/146686207-62a05368-4e81-4764-927f-23eced11381c.jpg)
 
 Below is the code for the functionalities of the actions in the menus :
 ```cpp
