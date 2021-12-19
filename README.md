@@ -112,7 +112,7 @@ void SpreadSheet::goCellSlot(){
 }
 ```
 
-**image**
+![WhatsApp Image 2021-12-19 at 18 33 58](https://user-images.githubusercontent.com/93820154/146685275-23438739-688c-4578-9783-8c91358966d2.jpeg)
 
 2-Find Dialog
 -
