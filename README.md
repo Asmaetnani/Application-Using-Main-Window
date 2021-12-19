@@ -237,6 +237,10 @@ void SpreadSheet::saveContent(QString filename) const{
 ```
 ![image](https://user-images.githubusercontent.com/93820154/146685379-be7a5f13-2bbb-4f38-83d2-c1beceed2de1.png)
 
+This is what the saved file looks like:
+
+![image](https://user-images.githubusercontent.com/93820154/146685419-e1833522-32c6-4139-a270-5a7933d8a602.png)
+
 ## Loading files  
 
 To open the files we already saved we will have to create a slot to respond to the action trigger in the header .  
